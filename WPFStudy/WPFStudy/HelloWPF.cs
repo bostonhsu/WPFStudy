@@ -11,9 +11,8 @@ namespace WPFStudy
             Window win = new Window();
             win.Title = "WPF application";
             win.Content = "Hello WPF!";
-            win.Show();
             Application app = new Application();
-            app.Run();
+            app.Run(win);
         }
     }
 }
